@@ -1,0 +1,61 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+    border-radius: 15px;
+}
+hr {
+    color: red;
+}
+
+input {
+    width: 100px;
+    padding: 5px 8px ;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(238, 200, 200);
+    color: blue;
+}
+
+.foottoinch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.inchtofoot {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    gap: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(152, 201, 241);
+    font-weight: bold;
+}
+p {
+    font-size: 12px;
+    color: gray;
+}
+span {
+    color: rgb(83, 11, 165);
+    font-style: italic;
+}
