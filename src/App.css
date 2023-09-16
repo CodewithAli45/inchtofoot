@@ -1,24 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+body {
+    background-color: rgb(97, 116, 97);
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
 .app {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px 10px;
+    gap: 5px;
     border: 1px solid black;
     justify-content: center;
     align-items: center;
     background-color: rgb(180, 180, 180);
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
-}
-hr {
-    color: red;
 }
 
 input {
-    width: 100px;
+    width: 120px;
     padding: 5px 8px ;
     border-radius: 5px;
     outline: none;
     background-color: rgb(238, 200, 200);
     color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+input::placeholder {
+    font-size: 12px;
 }
 
 .foottoinch {
@@ -35,6 +48,8 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
 .inputs {
@@ -42,20 +57,42 @@ input {
     gap: 5px;
 }
 
+.display {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(87, 40, 40);
+    width: 70px;
+}
+
 
 button {
-    padding: 10px 20px;
-    font-size: 20px;
-    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid purple;
     border-radius: 10px;
     background-color: rgb(152, 201, 241);
-    font-weight: bold;
+    cursor: pointer;
 }
 p {
     font-size: 12px;
     color: gray;
+    margin: 0;
 }
 span {
-    color: rgb(83, 11, 165);
-    font-style: italic;
+    color: rgb(165, 11, 50);
+    font-family: 'Fuggles', cursive;
+    font-size: 30px;
+}
+img {
+    width: 30px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    
+}
+.contact p{
+    color: rgb(26, 24, 24);
 }

@@ -13,6 +13,9 @@ export const InchToFoot = () => {
       const inchAns = inchValue % 12;
       setInch(inchAns);
     }
+    if(inchValue === ''){
+      alert('Please enter valid inch only')
+    }
   };
 
   return (
@@ -23,11 +26,11 @@ export const InchToFoot = () => {
         onChange={(e) => setInchValue(e.target.value)}
         placeholder="Enter inch value"
       />
-      <button onClick={handleInchConversion}>Convert</button>
+      <button onClick={handleInchConversion}>Convert in Foot</button>
       <div className="display">
-        <h1>
+        <div>
           {foot}' {inch}''
-        </h1>
+        </div>
       </div>
     </div>
   );
