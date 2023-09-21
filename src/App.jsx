@@ -3,6 +3,7 @@ import './App.css';
 import { InchToFoot } from './components/InchToFoot';
 import { FootToInch } from './components/FootToInch';
 import AreaConversion from './components/AreaConversion';
+import FindArea from './components/FindArea';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
                 <InchToFoot />
                 <FootToInch />
                 <AreaConversion />
+                <FindArea />
                 <p>Thank you for using the conversion : <span>Ali Murtaza</span></p>
                 <div className="contact">
                     <p>Contact me: </p>

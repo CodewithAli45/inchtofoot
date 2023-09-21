@@ -15,7 +15,7 @@ body {
     border: 1px solid black;
     justify-content: center;
     align-items: center;
-    background-color: rgb(141, 177, 107);
+    background-color: rgb(140, 143, 138);
     box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
 }
@@ -60,8 +60,7 @@ input::placeholder {
 .display {
     font-size: 30px;
     text-align: center;
-    color: rgb(87, 40, 40);
-    width: 100px;
+    color: rgb(223, 217, 217);
 }
 
 
@@ -95,4 +94,22 @@ img {
 }
 .contact p{
     color: rgb(26, 24, 24);
+}
+.area {
+    display: flex;
+    flex-direction: column;
+}
+.length, .breadth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.length input, .breadth input {
+    width: 60px;
+}
+
+.btns{
+    display: flex;
+    gap: 15px;
 }
