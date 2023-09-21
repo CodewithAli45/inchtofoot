@@ -15,7 +15,7 @@ body {
     border: 1px solid black;
     justify-content: center;
     align-items: center;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(141, 177, 107);
     box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
 }
@@ -61,7 +61,7 @@ input::placeholder {
     font-size: 30px;
     text-align: center;
     color: rgb(87, 40, 40);
-    width: 80px;
+    width: 100px;
 }
 
 
