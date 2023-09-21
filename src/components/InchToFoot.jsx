@@ -28,9 +28,7 @@ export const InchToFoot = () => {
       />
       <button onClick={handleInchConversion}>Convert in Foot</button>
       <div className="display">
-        <div>
-          {foot}' {inch}''
-        </div>
+        {foot}' {inch}''
       </div>
     </div>
   );
